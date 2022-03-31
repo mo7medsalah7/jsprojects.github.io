@@ -1,0 +1,67 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background: rgba(133, 175, 240, 0.8);
+	color: #fff;
+	font-family: "sans serif";
+}
+main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+h2 {
+	padding: 10px;
+	text-align: center;
+	font-family: "sans serif";
+	font-size: 40px;
+}
+.container {
+	max-width: 1000px;
+}
+.review {
+	margin: auto;
+	text-align: center;
+}
+#person-img {
+	border-radius: 50%;
+	width: 120px;
+	height: 120px;
+}
+#author {
+	font-size: 36px;
+	padding: 8px 0;
+}
+article #job {
+	font-size: 20px;
+	padding: 12px 0;
+}
+#info {
+	width: 70%;
+	margin: auto;
+}
+.button-container {
+	margin: auto;
+	text-align: center;
+}
+.button-container button,
+.random-btn {
+	background: #fff;
+	margin-top: 12px;
+	cursor: pointer;
+	outline: none;
+	border: none;
+	padding: 8px;
+}
+.random-btn {
+	width: 100%;
+	font-size: 20px;
+	color: rgb(93, 153, 241);
+	font-family: "sans-serif";
+}
+button span {
+	font-size: 20px;
+}

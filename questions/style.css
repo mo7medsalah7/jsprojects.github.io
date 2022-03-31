@@ -1,0 +1,24 @@
+.question-text {
+	display: none;
+}
+.show-text .question-text {
+	display: block;
+}
+
+.question-btn {
+	border: none;
+	outline: none;
+	padding: 6px;
+	margin-right: 20px;
+	cursor: pointer;
+}
+
+.minus-icon {
+	display: none;
+}
+.show-text .minus-icon {
+	display: inline;
+}
+.show-text .plus-icon {
+	display: none;
+}
