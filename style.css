@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap");
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: #f5f5dc;
+}
+main {
+	height: 100vh;
+	display: flex;
+
+	align-items: center;
+	flex-direction: column;
+}
+.heading {
+	/* display: flex; */
+}
+
+h1 {
+	margin: 20px;
+	text-align: center;
+	font-size: 45px;
+	margin-bottom: 4rem;
+	font-family: "Lato", sans-serif;
+	background: -webkit-linear-gradient(#eee, #333);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+@media screen and (max-width: 600px) {
+	h1 {
+		font-size: 18px;
+	}
+}
+@media screen and (min-width: 601px) and (max-width: 922px) {
+	h1 {
+		font-size: 30px;
+	}
+}
+.wrapper {
+	color: #fff;
+	width: 90%;
+}
+.cards {
+	display: grid;
+	grid-gap: 1rem;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+h2 {
+	color: #222;
+	margin-bottom: 25px;
+}
+span {
+	border: 2px solid #222;
+	padding: 4px;
+}
+.project {
+	padding: 12px;
+	box-shadow: 2px 1px 2px #a2a2a5;
+	/* Created with https://www.css-gradient.com */
+	background: #d19d7e;
+	background: -webkit-linear-gradient(left, #d19d7e, #d1a32c);
+	background: -moz-linear-gradient(left, #d19d7e, #d1a32c);
+	background: linear-gradient(to right, #d19d7e, #d1a32c);
+}
+.project h2 {
+	font-size: 24px;
+	font-style: italic;
+	font-weight: 700;
+	font-family: "Lato", sans-serif;
+}
+.project h2 a {
+	text-decoration: none;
+	color: #fff;
+}
